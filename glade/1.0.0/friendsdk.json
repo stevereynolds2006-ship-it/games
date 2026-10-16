@@ -1,0 +1,122 @@
+{
+  "id": "glade",
+  "title": "GLADE",
+  "version": "1.0.0",
+  "client": "client/main.tsx",
+  "display": {
+    "minAspectRatio": "9:16",
+    "maxAspectRatio": "16:9"
+  },
+  "currency": "RF",
+  "items": {
+    "mark": {
+      "name": "Chart mark"
+    }
+  },
+  "actions": {
+    "buyBoard": {
+      "type": "purchase",
+      "label": "Open this board",
+      "description": "Open one locked board. The first board is free.",
+      "price": "1200",
+      "maxQuantity": 1,
+      "loaned": true
+    },
+    "buyFlare": {
+      "type": "purchase",
+      "label": "Flare",
+      "description": "A pulse that pushes the corrupted Friends back.",
+      "price": "5",
+      "maxQuantity": 1,
+      "loaned": true
+    },
+    "holdMaze": {
+      "type": "purchase",
+      "label": "Hold this maze",
+      "description": "The walls stop shifting for the rest of this run.",
+      "price": "10",
+      "maxQuantity": 1,
+      "loaned": true
+    },
+    "buyQuiet": {
+      "type": "purchase",
+      "label": "Quiet",
+      "description": "The corrupted Friends lose you until the next day.",
+      "price": "8",
+      "maxQuantity": 1,
+      "loaned": true
+    },
+    "buyScout": {
+      "type": "purchase",
+      "label": "Scout",
+      "description": "The minimap fills in, including the exit.",
+      "price": "6",
+      "maxQuantity": 1,
+      "loaned": true
+    },
+    "buyCowl": {
+      "type": "purchase",
+      "label": "Night Cowl",
+      "description": "A black cowl with pointed ears and white eyes.",
+      "price": "1000",
+      "maxQuantity": 1,
+      "loaned": true
+    },
+    "buyGrin": {
+      "type": "purchase",
+      "label": "Red Grin",
+      "description": "A pale mask, green hair, and a red smile.",
+      "price": "1000",
+      "maxQuantity": 1,
+      "loaned": true
+    },
+    "buySkull": {
+      "type": "purchase",
+      "label": "Skull",
+      "description": "A bone mask with black eyes.",
+      "price": "1000",
+      "maxQuantity": 1,
+      "loaned": true
+    },
+    "buyVisor": {
+      "type": "purchase",
+      "label": "Visor",
+      "description": "A gold plate with a dark eye slit.",
+      "price": "1000",
+      "maxQuantity": 1,
+      "loaned": true
+    },
+    "buyWrap": {
+      "type": "purchase",
+      "label": "Wraps",
+      "description": "Pale bandages with dark eye holes.",
+      "price": "1000",
+      "maxQuantity": 1,
+      "loaned": true
+    },
+    "buyBeak": {
+      "type": "purchase",
+      "label": "Beak",
+      "description": "A long beak and round dark eyes.",
+      "price": "1000",
+      "maxQuantity": 1,
+      "loaned": true
+    },
+    "buyHorns": {
+      "type": "purchase",
+      "label": "Horns",
+      "description": "A dark mask with pale horns.",
+      "price": "1000",
+      "maxQuantity": 1,
+      "loaned": true
+    },
+    "buyChance": {
+      "type": "purchase",
+      "label": "Second chance",
+      "description": "Once this run, dying returns you to the center.",
+      "price": "15",
+      "maxQuantity": 1,
+      "loaned": true
+    }
+  }
+}
